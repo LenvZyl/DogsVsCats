@@ -47,6 +47,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
             picker.dismiss(animated: true, completion: nil)
             return
         }
+        
         imageView.image = selectedImage
         imageView.contentMode = .scaleAspectFill
         checkAnimalButton.isEnabled = true
